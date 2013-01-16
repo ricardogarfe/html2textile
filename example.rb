@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'html2textile'
 
 first_block = <<END

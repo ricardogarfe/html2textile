@@ -17,3 +17,13 @@ Searching for options, the ClothRed library which offers some translation, but i
 Porting code from python to ruby is a pretty straightforward process as the language’s are so similar on a number of levels, but there were several issues to work through, particularly relating to scoping, and quite a few methods to change to make them feel a little more ruby-ish. I’ve not converted all of the entity handling as I didn’t really need it, but there might be a bit of work to do in making sure character set issues are properly taken care of.
 
 The end result is a piece of code that’s now served its purpose and that I’m unlikely to need again for quite a while. It’s not something that I’m particularly proud of, it could almost certainly be implemented more neatly, but I thought I’d throw it out there in case it could be useful to someone else. Should you be inspired to take it and twist it and turn it into a well-heeled, more robust and properly distributable solution, feel free, but please let me know so that at the very least I can update this entry.
+
+# Installing gem #
+
+gem build html2textile.gemspec
+
+sudo gem install html2textile
+
+gem list
+
+sudo gem uninstall html2textile

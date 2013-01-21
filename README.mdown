@@ -27,7 +27,9 @@ Run ``example.rb`` file as ruby script.
 Build package
 --------------
 
-gem build html2textile.gemspec
+Build package using gem:
+
+	gem build html2textile.gemspec
 
 Install gem
 ------------

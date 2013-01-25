@@ -18,12 +18,28 @@ Porting code from python to ruby is a pretty straightforward process as the lang
 
 The end result is a piece of code that’s now served its purpose and that I’m unlikely to need again for quite a while. It’s not something that I’m particularly proud of, it could almost certainly be implemented more neatly, but I thought I’d throw it out there in case it could be useful to someone else. Should you be inspired to take it and twist it and turn it into a well-heeled, more robust and properly distributable solution, feel free, but please let me know so that at the very least I can update this entry.
 
+# Tests #
+
+Run ``example.rb`` file as ruby script.
+
 # Installing gem #
 
-gem build html2textile.gemspec
+Build package
+--------------
+
+Build package using gem:
+
+	gem build html2textile.gemspec
+
+Install gem
+------------
 
 sudo gem install html2textile
 
-gem list
+Check installation
 
-sudo gem uninstall html2textile
+	gem list
+
+Unistall
+
+	sudo gem uninstall html2textile

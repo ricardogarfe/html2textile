@@ -1,3 +1,10 @@
 # Eclipse project files
 .project
 .settings
+
+# Gems 
+*.lock
+*.gem
+
+# Files
+*~
